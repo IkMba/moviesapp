@@ -1,0 +1,6 @@
+.buttonIcons,
+.icons {
+  font-size: 1.2rem;
+  color: var(--white);
+  display: flex;
+}

@@ -1,0 +1,19 @@
+.explore {
+  /* background-color: var(--dark-blue); */
+  padding: 2rem 4rem;
+}
+.exploreHeading {
+  display: flex;
+  justify-content: space-between;
+}
+.sort {
+  display: flex;
+  gap: 10px;
+}
+
+.exploreMovies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 2rem;
+}

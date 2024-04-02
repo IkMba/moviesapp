@@ -1,0 +1,15 @@
+.rating {
+  color: var(--white);
+  background-color: var(--black-70);
+  border-radius: 50%;
+  /* width: 70px; */
+  /* height: 40px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rating span {
+  font-size: 10px;
+  margin-bottom: 10px;
+}

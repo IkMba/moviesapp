@@ -1,0 +1,49 @@
+.nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* background-color: var(--black-gray); */
+  /* background: transparent; */
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+  width: 100%;
+  max-width: 350px;
+  height: 100%;
+  z-index: 21;
+  animation: shine 1s;
+  color: var(--white);
+  padding: 1rem;
+  font-size: 18px;
+}
+
+@keyframes shine {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.logo {
+  font-size: 2rem;
+}
+
+.navHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav button {
+  font-size: 2rem;
+}
+
+.navLinks {
+  margin-top: 2rem;
+  padding-inline: 1rem;
+}
+.navLinks li {
+  margin-bottom: 1rem;
+}

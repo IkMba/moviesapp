@@ -1,0 +1,68 @@
+.selectButton {
+  /* width: auto; */
+  position: relative;
+  max-width: 300px;
+}
+.select {
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 10px 10px;
+  border-radius: 20px;
+  font-size: 18px;
+  width: 100%;
+  border: none;
+  outline: none;
+  /* -webkit-appearance: none; */
+}
+
+.delete {
+  color: var(--white);
+  position: absolute;
+  top: 7px;
+  right: 35px;
+  font-size: 20px;
+  font-weight: 800;
+  z-index: 5;
+}
+
+.line {
+  position: absolute;
+  top: 7px;
+  right: 25px;
+  height: 15px;
+  /* width: 20px; */
+  color: var(--black);
+  border-left: 1px solid var(--white);
+}
+
+.selectedItems {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  position: absolute;
+  top: 15%;
+  left: 5px;
+  font-size: 12px;
+  /* font-weight: 800; */
+  align-items: center;
+}
+
+.selectedItem {
+  color: var(--white);
+  background-color: var(--black);
+  width: auto;
+  padding: 1px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.selectedItem span {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.select option {
+  background-color: var(--white);
+  color: var(--dark-blue);
+}

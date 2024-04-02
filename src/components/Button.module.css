@@ -1,0 +1,14 @@
+.button {
+  font-size: 14px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-block: 0.5rem;
+  /* background: linear-gradient(
+    to right,
+    (var(--light-green), 1) 0%,
+    (var(--light-blue), 1) 100% */
+
+  background: var(--light-blue);
+}

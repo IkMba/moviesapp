@@ -1,0 +1,37 @@
+.footer {
+  background-color: var(--dark-blue);
+  padding: 3rem;
+  text-align: center;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  gap: 15%;
+}
+
+.footerLinks {
+  display: flex;
+  gap: 5%;
+  justify-content: center;
+}
+
+.footerText {
+  color: var(--black-gray);
+  margin: auto;
+}
+
+.footerBrands {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  padding-bottom: 3rem;
+}
+.footerBrands span {
+  font-size: 2rem;
+  color: var(--white);
+}
+
+@media (min-width: 800px) {
+  .footerText {
+    width: 70%;
+  }
+}

@@ -1,0 +1,55 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  color: var(--white);
+  font: size 2rem;
+  /* background: rgba(0, 0, 0, 0.25); */
+  background: var(--dark-blue);
+  backdrop-filter: blur(3.5px);
+  z-index: 20;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-transform: uppercase;
+}
+
+.header h3 {
+  font-size: 1.5rem;
+}
+
+.headerRight,
+.headerLeft,
+.user {
+  display: flex;
+  align-items: center;
+}
+
+.headerLeft button {
+  font-size: 2rem;
+  margin-right: 0.5rem;
+}
+
+.headerLeft a {
+  padding-inline: 0.5rem;
+  margin-block: 0;
+  font-size: 18px;
+}
+
+.header img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+@media (max-width: 850px) {
+  .header a,
+  .headerCenter,
+  .user,
+  .headerRight .notif {
+    display: none;
+    font-size: 4rem;
+  }
+}

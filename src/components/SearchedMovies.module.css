@@ -1,0 +1,6 @@
+.search {
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}

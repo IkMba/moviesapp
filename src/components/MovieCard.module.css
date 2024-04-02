@@ -1,0 +1,28 @@
+.movieCard {
+  padding: 1rem 2rem;
+}
+
+.movieCard h3,
+.movieCard.bgDark h3 {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.movieCard.bgDark {
+  background-color: var(--dark-blue);
+  color: var(--white);
+  padding: 1rem;
+}
+
+.movieCard.bgDark h5 {
+  color: var(--white);
+}
+.movieCard.bgDark h6 {
+  color: var(--white-2);
+}
+
+@media (max-width: 650px) {
+  .movieCard {
+    padding-inline: 1rem;
+  }
+}

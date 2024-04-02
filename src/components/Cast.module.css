@@ -1,0 +1,69 @@
+.castSection {
+  padding: 3rem;
+  /* position: relative; */
+}
+.castContainer {
+  display: grid;
+  gap: 2rem;
+}
+.cast {
+  text-align: center;
+  display: flex;
+  gap: 15px;
+  /* width: 100%; */
+  padding: 20px 0;
+  overflow-x: scroll;
+  color: var(--black-50);
+}
+.cast::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+}
+.cast::-webkit-scrollbar {
+  display: none;
+}
+.cast:hover::-webkit-scrollbar {
+  display: block;
+}
+
+.castSection h3 {
+  font-size: 22px;
+}
+.castCard {
+  border: 1px solid var(--black-50);
+  box-shadow: var(--box-shadow-card);
+  border-radius: 10px;
+  /* height: fit-content; */
+}
+.castCard img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100px;
+  /* height: 150px; */
+}
+
+.extraMovieDetails {
+  display: grid;
+  align-items: center;
+  gap: 20px;
+  padding-block: 2rem;
+  color: var(--black);
+}
+
+.extraMovieDetails h5 {
+  color: var(--black);
+}
+.extraMovieDetails h6 {
+  color: var(--black-50);
+}
+.castDetails h6 {
+  color: var(--black-50);
+}
+.castDetails h5 {
+  color: var(--black);
+}
+
+@media (min-width: 650px) {
+  .castContainer {
+    grid-template-columns: 1fr 0.3fr;
+  }
+}
