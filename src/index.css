@@ -247,6 +247,12 @@ p {
   object-position: center;
 } */
 
+@media (max-width:450px) {
+ .slick-next,.slick-prev {
+  display: none;
+ }
+}
+
 .movieCard .slick-track {
   display: flex;
   gap: 1rem;
