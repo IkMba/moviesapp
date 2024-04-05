@@ -4,7 +4,7 @@
 }
 .castContainer {
   display: grid;
-  gap: 2rem;
+  /* gap: 1rem; */
 }
 .cast {
   text-align: center;
@@ -64,6 +64,7 @@
 
 @media (min-width: 650px) {
   .castContainer {
+    gap: 2rem;
     grid-template-columns: 1fr 0.3fr;
   }
 }

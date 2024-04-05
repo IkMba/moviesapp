@@ -11,10 +11,10 @@
 .heroDetails {
   color: var(--white);
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translateX(-50%);
-  width: 70%;
+  width: 100%;
   text-align: center;
 }
 
@@ -26,6 +26,8 @@
   display: flex;
   margin-top: 2rem;
   position: relative;
+  width: 70%;
+  margin-inline: auto;
 }
 .heroDetails input {
   background-color: var(--white);
@@ -60,4 +62,11 @@
   width: 100vw;
   object-fit: cover;
   object-position: top;
+}
+
+@media (max-width: 450px) {
+  .heroDetails {
+    top: 65%;
+    padding-inline: 1rem;
+  }
 }

@@ -17,3 +17,16 @@
   gap: 20px;
   margin-top: 2rem;
 }
+
+@media (max-width: 450px) {
+  .explore {
+    padding: 2rem;
+  }
+  .exploreHeading {
+    display: block;
+  }
+  .sort {
+    display: block;
+    margin-top: 1rem;
+  }
+}

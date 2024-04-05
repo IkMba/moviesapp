@@ -34,4 +34,17 @@
   .footerText {
     width: 70%;
   }
+  .footerBrands span {
+    font-size: 1rem;
+    color: var(--white);
+  }
+}
+@media (max-width: 500px) {
+  .footer {
+    gap: 10%;
+  }
+  .footerBrands span {
+    font-size: 1.5rem;
+    color: var(--white);
+  }
 }

@@ -14,12 +14,13 @@ function Nav({ setShowNav }) {
         />
       </div>
       <ul className={styles.navLinks}>
+        <li onClick={() => setShowNav(false)}>
+          <NavLink to="/">Home</NavLink>
+        </li>
         <li>
           <NavLink to="/explore/movies">Movies</NavLink>
         </li>
-        <li>
-          <NavLink to="/explore/shows">SHOWS</NavLink>
-        </li>
+        <li></li>
         <li>
           <NavLink to="">Trending</NavLink>
         </li>
